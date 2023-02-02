@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+body {
+  background: #20262e;
+}
+
+.navbar .nav-btn {
+  background: #fff;
+  margin: 20px;
+  padding: 4px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.navbar p {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 70px;
+  color: white;
+}
+
+.number {
+  margin-top: 7rem;
+}
+
+.number hr {
+  background: white;
+  height: 0.4rem;
+}
+
+.number p {
+  font-size: 5rem;
+  background: white;
+  width: 8rem;
+  text-align: center;
+  position: relative;
+  top: -50px;
+  left: 45%;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-around;
+}
+
+.right {
+  color: white;
+}
+
+.left {
+  color: white;
+  display: inline;
+}
+
+.left input {
+  padding: 30px 0px;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.left button {
+  margin-top: 20px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.left button span {
+  font-size: 20px;
+}
+
+.right {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.right p {
+  margin: 30px;
+}
