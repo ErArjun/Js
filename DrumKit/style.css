@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url('images/background.jpg') bottom center;
+  background-size: cover;
+}
+
+.main {
+  margin: 0 5rem;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 1rem;
+  align-items: center;
+}
+
+.key {
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  text-shadow: 0 0 0.5rem black;
+  padding: 1rem 0.5rem;
+  width: 7rem;
+  border: 0.3rem solid black;
+  border-radius: 0.5rem;
+  transition: all 0.09s linear;
+}
+
+.key p {
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  color: orange;
+}
+
+.active {
+  overflow: hidden;
+  border: 3px solid orange;
+  box-shadow: 0 0 1rem orange;
+}
+
+.active h1,
+.active p {
+  transform: scale(1.1);
+}

@@ -53,6 +53,7 @@ roll.addEventListener('click', () => {
     changeColor();
     current.textContent = '0';
     counter++;
+    currentScore = 0;
   }
 });
 
